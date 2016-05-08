@@ -16,28 +16,25 @@
 
   <h1>Nasdaq Data</h1>
   <div id="dataHere"></div>
-
-  <br/>
-  <br/>
-
+    <br/>
+    <br/>
   <input type="button" value="Do Plotly" id="OpenPlotly">
-
-  <br/>
-  <br/>
-
+    <br/>
+    <br/>
   <div id="data"></div>
-
-  <br/>
-  <br/>
-  
+    <br/>
+    <br/>  
   <div id="results"></div>
-
-  <p></p>
-
 
 <!-- LOADING SCRIPT -->
   
   <script type="text/javascript" src="scripts.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $.getScript("plot.js");
+    });
+
+  </script>
 
 </body>
 </html>
