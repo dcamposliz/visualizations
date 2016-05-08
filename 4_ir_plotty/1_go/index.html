@@ -2,15 +2,21 @@
 <html>
 <head>
 	<title></title>
+
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+
 </head>
 <body>
 
 <div id="gridHolder0">
-  <table>
+<table>
     <span id="headers">
      <tr>
       <th><span id="1" class="x-column-header-text">x</span></th>
-    <th><span id="2" class="x-column-header-text">y</span></th>
+      <th><span id="2" class="x-column-header-text">y</span></th>
     </tr>
     </span>
 
@@ -51,13 +57,26 @@
 
 </div>
 
+<h3>
+  data size:
+</h3>
+<div id="data-size"></div>
 
-data size:<div id="data-size"></div>
-data:<div id="data"></div>
-plotly:<div id="results"></div>
+<h3>
+  data:
+</h3>
+<div id="data"></div>
+
+<h3>
+  plotly:
+</h3>
+<div id="results"></div>
+
 <input type="button" value="Do Plotly" id="OpenPlotly">
 </br>
 
+<!--  -->
+<script type="text/javascript" src="scripts.js"></script>
 
 </body>
 </html>
